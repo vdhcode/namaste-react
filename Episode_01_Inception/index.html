@@ -9,9 +9,12 @@
   <body>
     <h1>Shree Ganeshaya Namaha🙏</h1>
     <hr />
-    <div id="root"></div>
+    <div id="root">
+      <h1>I am being replaced by the root element in App.js file</h1>
+    </div>
+    <div id="root1"></div>
     <footer>
-      <div><p>Copyright &copy; 2023</p></div>
+      <div><p>Copyright &copy; 2025</p></div>
     </footer>
   </body>
   <!-- This is how to display UI using JavaScript -->
@@ -21,6 +24,10 @@
     const root = document.getElementById('root');
     root.appendChild(heading);
   </script> -->
+
+  <!-- This is how to import and use React components -->
+  <!-- Order of scripts matters. CDN links should be above the App.js file -->
+  <!-- <script src="App.js"></script> -->
   <script
     crossorigin
     src="https://unpkg.com/react@18/umd/react.development.js"
